@@ -21,11 +21,11 @@ export { ENotificationData } from "./eNotification";
 export { EAddressData } from "./eAddress";
 export { EPaymentItemsData } from "./eSettingPayment";
 export {
-    ECategories,
-    EFeaturedShop,
-    EPopulars,
-    EYourStores,
-    EWishlistHome,
+  ECategories,
+  EFeaturedShop,
+  EPopulars,
+  EYourStores,
+  EWishlistHome,
 } from "./eHome";
 export { ECategoryData } from "./eCategory";
 export { EFilterColors, EFilterCategories, EFilterSizes } from "./eFilter";
@@ -33,24 +33,24 @@ export { EProductOfStore } from "./eProductStoreProfile";
 export { EFollowers } from "./eFollowers";
 export { EReviewsData } from "./eReviews";
 export {
-    FCategories,
-    FRecentTransactions,
-    FActivites,
-    FHotNews,
-    FNews,
-    FChartItems,
-    FTransactions,
-    FHotNews2,
+  FCategories,
+  FRecentTransactions,
+  FActivites,
+  FHotNews,
+  FNews,
+  FChartItems,
+  FTransactions,
+  FHotNews2,
 } from "./fHome";
 export { FLinks, FTransactionsTab } from "./fCryptol";
 export {
-    FBuyList,
-    FSellList,
-    FTransfer,
-    FTypes,
-    FChooseCategories,
-    FMarkers,
-    FCurrencies,
+  FBuyList,
+  FSellList,
+  FTransfer,
+  FTypes,
+  FChooseCategories,
+  FMarkers,
+  FCurrencies,
 } from "./fAddTransaction";
 export { FFriends } from "./fFriend";
 export { FPaymentItemsData } from "./fBank";

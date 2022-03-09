@@ -27,186 +27,185 @@ import EProduct from "@screens/EProduct";
 import EPost from "@screens/EPost";
 import Profile from "@screens/Profile";
 import {
-    tabBarIcon,
-    tabBarIconHaveNoty,
-    BottomTabNavigatorMazi,
+  tabBarIcon,
+  tabBarIconHaveNoty,
+  BottomTabNavigatorMazi,
 } from "@navigation/components";
 
 export const ECommerceTabScreens = {
-    EHome: {
-        component: EHome,
-        options: {
-            title: "home",
-            tabBarIcon: ({ color }) => tabBarIcon({ color, name: "home" }),
-        },
+  EHome: {
+    component: EHome,
+    options: {
+      title: "home",
+      tabBarIcon: ({ color }) => tabBarIcon({ color, name: "home" }),
     },
-    EProduct: {
-        component: EProduct,
-        options: {
-            title: "products",
-            tabBarIcon: ({ color }) => tabBarIcon({ color, name: "th-large" }),
-        },
+  },
+  EProduct: {
+    component: EProduct,
+    options: {
+      title: "products",
+      tabBarIcon: ({ color }) => tabBarIcon({ color, name: "th-large" }),
     },
-    News: {
-        component: EPost,
-        options: {
-            title: "news",
-            tabBarIcon: ({ color }) => tabBarIcon({ color, name: "book" }),
-        },
+  },
+  News: {
+    component: EPost,
+    options: {
+      title: "news",
+      tabBarIcon: ({ color }) => tabBarIcon({ color, name: "book" }),
     },
-    ECart: {
-        component: ECart,
-        options: {
-            title: "cart",
-            tabBarIcon: ({ color }) =>
-                tabBarIconHaveNoty({ color, name: "shopping-cart" }),
-        },
+  },
+  ECart: {
+    component: ECart,
+    options: {
+      title: "cart",
+      tabBarIcon: ({ color }) =>
+        tabBarIconHaveNoty({ color, name: "shopping-cart" }),
     },
-    Profile: {
-        component: Profile,
-        options: {
-            title: "account",
-            tabBarIcon: ({ color }) =>
-                tabBarIcon({ color, name: "user-circle" }),
-        },
+  },
+  Profile: {
+    component: Profile,
+    options: {
+      title: "account",
+      tabBarIcon: ({ color }) => tabBarIcon({ color, name: "user-circle" }),
     },
+  },
 };
 
 const ECommerceMenu = () => (
-    <BottomTabNavigatorMazi tabScreens={ECommerceTabScreens} />
+  <BottomTabNavigatorMazi tabScreens={ECommerceTabScreens} />
 );
 
 export default {
-    ECommerceMenu: {
-        component: ECommerceMenu,
-        options: {
-            title: "home",
-        },
+  ECommerceMenu: {
+    component: ECommerceMenu,
+    options: {
+      title: "home",
     },
-    EAddress: {
-        component: EAddress,
-        options: {
-            title: "address",
-        },
+  },
+  EAddress: {
+    component: EAddress,
+    options: {
+      title: "address",
     },
-    EBank: {
-        component: EBank,
-        options: {
-            title: "payment",
-        },
+  },
+  EBank: {
+    component: EBank,
+    options: {
+      title: "payment",
     },
-    EBankDetail: {
-        component: EBankDetail,
-        options: {
-            title: "payment_card",
-        },
+  },
+  EBankDetail: {
+    component: EBankDetail,
+    options: {
+      title: "payment_card",
     },
-    ECategory: {
-        component: ECategory,
-        options: {
-            title: "categories",
-        },
+  },
+  ECategory: {
+    component: ECategory,
+    options: {
+      title: "categories",
     },
-    EConfirmed: {
-        component: EConfirmed,
-        options: {
-            title: "completed",
-        },
+  },
+  EConfirmed: {
+    component: EConfirmed,
+    options: {
+      title: "completed",
     },
-    EFeedback: {
-        component: EFeedback,
-        options: {
-            title: "feedback",
-        },
+  },
+  EFeedback: {
+    component: EFeedback,
+    options: {
+      title: "feedback",
     },
-    EFilter: {
-        component: EFilter,
-        options: {
-            title: "filtering",
-        },
+  },
+  EFilter: {
+    component: EFilter,
+    options: {
+      title: "filtering",
     },
-    EFollowers: {
-        component: EFollowers,
-        options: {
-            title: "followers",
-        },
+  },
+  EFollowers: {
+    component: EFollowers,
+    options: {
+      title: "followers",
     },
-    EMessages: {
-        component: EMessages,
-        options: {
-            title: "message",
-        },
+  },
+  EMessages: {
+    component: EMessages,
+    options: {
+      title: "message",
     },
-    EMyOrder: {
-        component: EMyOrder,
-        options: {
-            title: "order_history",
-        },
+  },
+  EMyOrder: {
+    component: EMyOrder,
+    options: {
+      title: "order_history",
     },
-    ENotification: {
-        component: ENotification,
-        options: {
-            title: "notification",
-        },
+  },
+  ENotification: {
+    component: ENotification,
+    options: {
+      title: "notification",
     },
-    EPayment: {
-        component: EPayment,
-        options: {
-            title: "choose_payment_card",
-        },
+  },
+  EPayment: {
+    component: EPayment,
+    options: {
+      title: "choose_payment_card",
     },
-    EProductDetail: {
-        component: EProductDetail,
-        options: {
-            title: "product_detail",
-        },
+  },
+  EProductDetail: {
+    component: EProductDetail,
+    options: {
+      title: "product_detail",
     },
-    EProductPageNotFound: {
-        component: EProductPageNotFound,
-        options: {
-            title: "product_not_found",
-        },
+  },
+  EProductPageNotFound: {
+    component: EProductPageNotFound,
+    options: {
+      title: "product_not_found",
     },
-    EProductStoreProfile: {
-        component: EProductStoreProfile,
-        options: {
-            title: "store",
-        },
+  },
+  EProductStoreProfile: {
+    component: EProductStoreProfile,
+    options: {
+      title: "store",
     },
-    EReviews: {
-        component: EReviews,
-        options: {
-            title: "customer_review",
-        },
+  },
+  EReviews: {
+    component: EReviews,
+    options: {
+      title: "customer_review",
     },
-    ESearchBarcode: {
-        component: ESearchBarcode,
-        options: {
-            title: "search_barcode",
-        },
+  },
+  ESearchBarcode: {
+    component: ESearchBarcode,
+    options: {
+      title: "search_barcode",
     },
-    ESearchHistory: {
-        component: ESearchHistory,
-        options: {
-            title: "search",
-        },
+  },
+  ESearchHistory: {
+    component: ESearchHistory,
+    options: {
+      title: "search",
     },
-    EShipping: {
-        component: EShipping,
-        options: {
-            title: "shipping",
-        },
+  },
+  EShipping: {
+    component: EShipping,
+    options: {
+      title: "shipping",
     },
-    ETrackOrder: {
-        component: ETrackOrder,
-        options: {
-            title: "track_order",
-        },
+  },
+  ETrackOrder: {
+    component: ETrackOrder,
+    options: {
+      title: "track_order",
     },
-    EWishlist: {
-        component: EWishlist,
-        options: {
-            title: "wishlist",
-        },
+  },
+  EWishlist: {
+    component: EWishlist,
+    options: {
+      title: "wishlist",
     },
+  },
 };

@@ -18,12 +18,12 @@ const List = ({
   onPress,
   salePercent,
   isFavorite = false,
-  loading = false
+  loading = false,
 }) => {
   const { colors } = useTheme();
 
-  if(loading) {
-    return <Loading style={style}/>;
+  if (loading) {
+    return <Loading style={style} />;
   }
 
   return (

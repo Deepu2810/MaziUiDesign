@@ -15,96 +15,96 @@ import Loading from "@screens/Loading";
 import SliderIntro from "@screens/SliderIntro";
 
 export default {
-    Loading: {
-        component: Loading,
-        options: {
-            title: "loading",
-            gestureEnabled: false,
-        },
+  Loading: {
+    component: Loading,
+    options: {
+      title: "loading",
+      gestureEnabled: false,
     },
-    SliderIntro: {
-        component: SliderIntro,
-        options: {
-            title: "Slider Intro",
-            gestureEnabled: false,
-        },
+  },
+  SliderIntro: {
+    component: SliderIntro,
+    options: {
+      title: "Slider Intro",
+      gestureEnabled: false,
     },
-    MaziHome: {
-        component: MaziHome,
-        options: {
-            title: "mazi_home",
-        },
+  },
+  MaziHome: {
+    component: MaziHome,
+    options: {
+      title: "mazi_home",
     },
-    AboutUs: {
-        component: AboutUs,
-        options: {
-            title: "about_us",
-        },
+  },
+  AboutUs: {
+    component: AboutUs,
+    options: {
+      title: "about_us",
     },
-    ChangeLanguage: {
-        component: ChangeLanguage,
-        options: {
-            title: "change_language",
-        },
+  },
+  ChangeLanguage: {
+    component: ChangeLanguage,
+    options: {
+      title: "change_language",
     },
-    ChangePassword: {
-        component: ChangePassword,
-        options: {
-            title: "change_password",
-        },
+  },
+  ChangePassword: {
+    component: ChangePassword,
+    options: {
+      title: "change_password",
     },
-    ContactUs: {
-        component: ContactUs,
-        options: {
-            title: "contact_us",
-        },
+  },
+  ContactUs: {
+    component: ContactUs,
+    options: {
+      title: "contact_us",
     },
-    Setting: {
-        component: Setting,
-        options: {
-            title: "setting",
-        },
+  },
+  Setting: {
+    component: Setting,
+    options: {
+      title: "setting",
     },
-    SignIn: {
-        component: SignIn,
-        options: {
-            title: "sign_in",
-        },
+  },
+  SignIn: {
+    component: SignIn,
+    options: {
+      title: "sign_in",
     },
-    SignUp: {
-        component: SignUp,
-        options: {
-            title: "sign_out",
-        },
+  },
+  SignUp: {
+    component: SignUp,
+    options: {
+      title: "sign_out",
     },
-    PreviewComponent: {
-        component: PreviewComponent,
-        options: {
-            title: "preview_component",
-        },
+  },
+  PreviewComponent: {
+    component: PreviewComponent,
+    options: {
+      title: "preview_component",
     },
-    ProfileEdit: {
-        component: ProfileEdit,
-        options: {
-            title: "edit_profile",
-        },
+  },
+  ProfileEdit: {
+    component: ProfileEdit,
+    options: {
+      title: "edit_profile",
     },
-    ResetPassword: {
-        component: ResetPassword,
-        options: {
-            title: "reset_password",
-        },
+  },
+  ResetPassword: {
+    component: ResetPassword,
+    options: {
+      title: "reset_password",
     },
-    Review: {
-        component: Review,
-        options: {
-            title: "reviews",
-        },
+  },
+  Review: {
+    component: Review,
+    options: {
+      title: "reviews",
     },
-    ThemeSetting: {
-        component: ThemeSetting,
-        options: {
-            title: "theme",
-        },
+  },
+  ThemeSetting: {
+    component: ThemeSetting,
+    options: {
+      title: "theme",
     },
+  },
 };

@@ -13,9 +13,9 @@ export default function CategoryIcon(props) {
   const { style, icon, title, subtitle, onPress, loading } = props;
 
   if (loading) {
-    return <Loading style={style}/>;
+    return <Loading style={style} />;
   }
-  
+
   return (
     <TouchableOpacity
       style={[

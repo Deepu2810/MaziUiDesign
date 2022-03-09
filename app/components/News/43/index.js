@@ -8,9 +8,10 @@ import styles from "./styles";
 import Loading from "./Loading";
 
 const News43 = (props) => {
-  const { name, description, title, image, style, avatar, onPress, loading } = props;
+  const { name, description, title, image, style, avatar, onPress, loading } =
+    props;
   if (loading) {
-    return <Loading style={style}/>;
+    return <Loading style={style} />;
   }
 
   return (

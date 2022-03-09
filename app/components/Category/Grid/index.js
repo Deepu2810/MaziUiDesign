@@ -12,7 +12,7 @@ const CategoryGrid = (props) => {
   const { colors } = useTheme();
 
   if (loading) {
-    return <Loading style={style}/>;
+    return <Loading style={style} />;
   }
 
   return (

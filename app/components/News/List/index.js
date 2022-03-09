@@ -10,7 +10,7 @@ import Loading from "./Loading";
 const NewsList = (props) => {
   const { style, onPress, image, title, subtitle, date, loading } = props;
   if (loading) {
-    return <Loading style={style}/>;
+    return <Loading style={style} />;
   }
   return (
     <TouchableOpacity

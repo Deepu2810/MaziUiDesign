@@ -21,5 +21,5 @@ export default StyleSheet.create({
     borderRadius: 20,
     width: 50,
     height: 50,
-  }
+  },
 });

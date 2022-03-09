@@ -21,7 +21,7 @@ const Grid2 = ({
   const { colors } = useTheme();
 
   if (loading) {
-    return <Loading style={style}/>;
+    return <Loading style={style} />;
   }
 
   return (

@@ -78,5 +78,4 @@ export const BaseSetting = {
       translation: require("../lang/ku.json"),
     },
   },
-  
 };

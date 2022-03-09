@@ -8,63 +8,63 @@ import Profile from "@screens/Profile";
 import React from "react";
 
 export const CryptoTabScreens = {
-    CHome: {
-        component: Dashboard7,
-        options: {
-            title: "home",
-            tabBarIcon: ({ color }) => tabBarIcon({ color, name: "home" }),
-        },
+  CHome: {
+    component: Dashboard7,
+    options: {
+      title: "home",
+      tabBarIcon: ({ color }) => tabBarIcon({ color, name: "home" }),
     },
-    CMarket: {
-        component: FCryptol01,
-        options: {
-            title: "market",
-            tabBarIcon: ({ color }) => tabBarIcon({ color, name: "chart-bar" }),
-        },
+  },
+  CMarket: {
+    component: FCryptol01,
+    options: {
+      title: "market",
+      tabBarIcon: ({ color }) => tabBarIcon({ color, name: "chart-bar" }),
     },
-    CNews: {
-        component: FPost,
-        options: {
-            title: "news",
-            tabBarIcon: ({ color }) => tabBarIcon({ color, name: "file" }),
-        },
+  },
+  CNews: {
+    component: FPost,
+    options: {
+      title: "news",
+      tabBarIcon: ({ color }) => tabBarIcon({ color, name: "file" }),
     },
-    Profile: {
-        component: Profile,
-        options: {
-            title: "setting",
-            tabBarIcon: ({ color }) => tabBarIcon({ color, name: "cog" }),
-        },
+  },
+  Profile: {
+    component: Profile,
+    options: {
+      title: "setting",
+      tabBarIcon: ({ color }) => tabBarIcon({ color, name: "cog" }),
     },
+  },
 };
 
 const CryptoMenu = () => (
-    <BottomTabNavigatorMazi tabScreens={CryptoTabScreens} />
+  <BottomTabNavigatorMazi tabScreens={CryptoTabScreens} />
 );
 
 export default {
-    CryptoMenu: {
-        component: CryptoMenu,
-        options: {
-            title: "home",
-        },
+  CryptoMenu: {
+    component: CryptoMenu,
+    options: {
+      title: "home",
     },
-    Dashboard3: {
-        component: Dashboard3,
-        options: {
-            title: "report",
-        },
+  },
+  Dashboard3: {
+    component: Dashboard3,
+    options: {
+      title: "report",
     },
-    FCryptol02: {
+  },
+  FCryptol02: {
     component: FCryptol02,
-        options: {
-            title: "detailed_information",
-        },
+    options: {
+      title: "detailed_information",
     },
-    FCrypto060708: {
-        component: FCrypto060708,
-        options: {
-            title: "activities",
-        },
+  },
+  FCrypto060708: {
+    component: FCrypto060708,
+    options: {
+      title: "activities",
     },
+  },
 };

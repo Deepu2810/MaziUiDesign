@@ -18,12 +18,12 @@ const Block = ({
   onPress,
   isFavorite = false,
   salePercent,
-  loading = false
+  loading = false,
 }) => {
   const { colors } = useTheme();
 
   if (loading) {
-    return <Loading style={style}/>;
+    return <Loading style={style} />;
   }
 
   return (
