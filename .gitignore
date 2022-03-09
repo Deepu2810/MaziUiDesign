@@ -1,1 +1,27 @@
+# Dependency directory
 node_modules
+
+# Dependency lock file
+package-lock.json
+
+# Docs directory
+docs
+
+#Yarn lock file
+yarn.lock
+
+#Android build directory
+android/app/build
+
+#IOS build directory
+ios/build
+
+#IOS Pods directory
+ios/Pods
+
+#ios socioLadder
+ios/socioLadder.xcworkspace
+
+#ios log file
+ios/Podfile.lock
+#Alert.alert('🔥', 'You can login here')}
